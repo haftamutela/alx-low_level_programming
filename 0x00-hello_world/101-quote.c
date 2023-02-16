@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdio.h>
-/**
- * main - A c program that print a line to the standard error
- * Return 1 (Success)
+#include <unistd.h>
+/**  main - The main function
+ * *
+ * Return: 1 always if success
+ * *
  */
 int main(void)
-{
-	fput("and that plece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+{	
+char quot[] ="and that piece of are is useful\" - Dora Korapar, 2015-10-19\n\";
+write(2, quot, 59);
 return (1);
 }
