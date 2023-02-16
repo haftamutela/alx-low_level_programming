@@ -1,8 +1,6 @@
 #include <unistd.h>
 /**  main - The main function
- * *
  * Return: 1 always if success
- * *
  */
 int main(void)
 {	
