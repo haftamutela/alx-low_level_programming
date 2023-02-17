@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: always 0 (Success)
+ * main - print a c program using printf
+ *
+ * Return: o
  */
 int main(void)
 {
-        printf("with proper grammar, but the outcome is a piece of art,\n")	
+        printf("with proper grammar, but the outcome is a piece of art,\|n")	
         return (0);
 }
