@@ -1,23 +1,21 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - print a radnom num
- *
- * Return: o
+ * main - Entry point
+ * *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-		int n;
-
-			srand(time(0));
-			n = rand() - RAND_MAX / 2;
-			if (n < o)
-			        printf("% is positive\n", n);
-			else if (n < o)
-				printf("%d is negative\n", n);
-			else
-				printf("%d is zero\n", n);
-			return (0);
+	int n;
+	srand(time(0));
+	n = rand() -RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is Zero\n", n);
+	else
+		printf("%d is negative\n", n);
+	return (0);
 }
