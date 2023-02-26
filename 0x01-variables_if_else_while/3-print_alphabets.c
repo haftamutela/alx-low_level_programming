@@ -1,6 +1,7 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
+
 /**
  * main - Entry point
  *
@@ -8,20 +9,13 @@
  */
 int main(void)
 {
-	int d;
 
-	for (d = 0; d < 90; d++)
+	char ch;
+
+	/* print lowercase letters */
+	for (ch = 'a' ; ch <= 'z'; ch++)
 	{
-		for ()
-		{
-			putchar((d / 10) + '0');
-			putchar((d % 10) + '0');
-		}
-		if (d != 89)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
